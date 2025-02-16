@@ -1,4 +1,6 @@
-﻿# PulseChat — Realtime Web Messaging Application
+# PulseChat — Realtime Web Messaging Application
+
+**Live Demo**: [https://pulsechat-qm69.onrender.com](https://pulsechat-qm69.onrender.com)
 
 A full-stack, realtime communication platform built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. The application supports bidirectional messaging, live user presence, typing status indicators, cloud media storage via Cloudinary, and dynamic UI theming.
 
@@ -66,7 +68,7 @@ PulseChat is designed as an end-to-end messaging solution demonstrating producti
 - **Typing Indicators**: Active typing events are relayed to chat recipients with a 2-second debounce timer to prevent network flooding.
 - **Cloud Media Pipeline**: Images are ingested via client-side Base64 conversion and uploaded to Cloudinary, with secure URLs persisted in MongoDB.
 - **Theme Customization**: 32 accessible DaisyUI themes with instant runtime switching, scoped preview cards, and browser persistence via `localStorage`.
-- **Preconfigured Demo Access**: A single-click demo login enables instant access for review and testing without manual registration.
+- **Preconfigured Demo Access**: A single-click demo login (demo@example.com / password123) enables instant access on both local and live deployments without manual registration.
 - **Security & Authorization**: Passwords are protected using bcrypt salt rounds; JWT credentials are transmitted exclusively through HTTP-only cookies with SameSite policy protection.
 
 ---
